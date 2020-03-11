@@ -1,0 +1,37 @@
+.detail_movie {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 50%;
+    font-weight: 300;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+        0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+.detail_movie img {
+    position: relative;
+    top: -50px;
+    max-width: 200px;
+    width: 100%;
+    height: 50%;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+}
+
+.detail_movie .movie_title, 
+.detail_movie .movie_year {
+    margin: 0;
+    font-weight: 300;
+}
+
+.detail_movie h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+}
+
